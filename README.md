@@ -11,14 +11,12 @@
 ![screenshot](https://i.imgur.com/girF4vV.jpg)
 ![screenshot](https://i.imgur.com/1PkSX6l.jpg)
 
-- Upgrades:
+- Upgrades and customizations:
 
 ![screenshot](https://i.imgur.com/kOfvi0y.jpg)
-
-- Customizations:
-
 ![screenshot](https://i.imgur.com/2fUtEz9.jpg)
 
-- Achievements screen:
+- Achievements and Title screen:
 
 ![screenshot](https://i.imgur.com/d5Rm9Ov.jpg)
+![screenshot](https://i.imgur.com/q05P2n5.jpg)
