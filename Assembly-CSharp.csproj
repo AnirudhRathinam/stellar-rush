@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C2DFE219-5150-CA5D-32EF-DCA0EE48C3F9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AboutScripts\AbtCam.cs" />
+     <Compile Include="Assets\Scripts\AboutScripts\AbtShape.cs" />
+     <Compile Include="Assets\Scripts\AboutScripts\CredScript.cs" />
+     <Compile Include="Assets\Scripts\AboutScripts\InstrScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\BgSelect.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\BonObjButton.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\CloseBonusMission.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\EGBack.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\EGRetry.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\EGShop.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\EndGameGUI.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\MissionControl.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\MoneyScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\PauseButtonScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\PowerUpManager.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\PowerupBullet.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\QuitButtonScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\ResumeButtonScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\RockHealth.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\ShipBodySelect.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\ShipLightSelect.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\SlashScript.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\StartupChecker.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\StartupClose.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\StartupMessage.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\TurretBurner.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\dontSlashClose.cs" />
+     <Compile Include="Assets\Scripts\GameScripts\firstGameDetector.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\CamMainMenuGUI.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\FreeGoldButton.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\GUIControl.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\GUIMainMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\GetGoldWarp.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\InSettings\CloseSettings.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\InSettings\playMusic.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\InSettings\showInstr.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\NGame.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\SettingsButton.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\ShopShow.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\ShowAbout.cs" />
+     <Compile Include="Assets\Scripts\MainMenuScripts\StatShow.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\BackToMain.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\MBBack.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\MBEarn.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\MBShip.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\MBUpgrade.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\MBbg.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\MsgBoxClose.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\Back01.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\Back02.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\Back03.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\Back04.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\Back05.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\Back06.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\BackBuy.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopBackgrounds\_BackMain.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Body01Grey.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Body02Black.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Body03Yellow.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Body04Blue.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Body05Pink.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Body06Green.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Light01Green.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Light02Blue.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Light03Pink.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Light04Purple.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Light05Red.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\Light06Yellow.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\ShipBody.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\ShipLights.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\_BuyBody.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopShip\_BuyLight.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopUpgrade\BuyEL.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopUpgrade\BuyHealth.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopUpgrade\BuyRampage.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopUpgrade\BuyShield.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\ShopUpgrade\BuySlasher.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\_CAM.cs" />
+     <Compile Include="Assets\Scripts\ShopScript\_ShipRotate.cs" />
+     <Compile Include="Assets\Scripts\StatsScripts\ButtonBack.cs" />
+     <Compile Include="Assets\Scripts\StatsScripts\ButtonForward.cs" />
+     <Compile Include="Assets\Scripts\StatsScripts\CamGUI.cs" />
+     <Compile Include="Assets\Scripts\StatsScripts\ShapeScript.cs" />
+     <Compile Include="Assets\Scripts\StatsScripts\StatAchievements.cs" />
+     <Compile Include="Assets\Scripts\StatsScripts\StatHiScore.cs" />
+     <None Include="Assets\Shaders\Toon.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Shaders\AlphaSelfIllum.shader" />
+     <None Include="Assets\Shaders\Shield.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenIAB_W8Plugin">
+ <HintPath>C:/Users/Anirudh Rathinam/Documents/SSA/Assets/Plugins/OpenIAB_W8Plugin.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0B584F95-63DE-A2AB-210E-1B439AF6DF4A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
