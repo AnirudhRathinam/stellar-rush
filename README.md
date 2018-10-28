@@ -4,6 +4,17 @@
 - Music by: Matt McFarland (www.mattmcfarland.com)
 - Everything other than the music was done from scratch by me - this includes art, 3d models, programming etc
 
+## How to play:
+
+- Tilt your phone to move left or right. Your objective is to go as far up as possible avoiding rocks and enemy attacks.
+- Slide your finger across the screen to attack. Slash enemy turrets to destroy them.
+- Destroying enemies gives you gold to spend on upgrades and customizations. Sometimes enemies also drop special temporary powerups.
+- Powerups include:
+  - Shield: Makes you invulnerable to damage
+  - Auto Shooter: Allows the spaceship to temporarily shoot missiles
+  - Super slasher: Allows you to slash and destroy the normally indestructable rocks
+  - Rampage: Ship speeds upwards and is temporarily invencible destroying everything it touches. 
+
 ## Screenshots Below:
 
 - Gameplay screenshots:
