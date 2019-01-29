@@ -1,4 +1,4 @@
-**Download the apk [here](https://drive.google.com/open?id=1g53kQLN3FZzBGhQV372ibj1fn0hm_kvL)**
+**NOTE: Download the apk [here](https://drive.google.com/open?id=1g53kQLN3FZzBGhQV372ibj1fn0hm_kvL)**
 
 
 # stellar-rush
