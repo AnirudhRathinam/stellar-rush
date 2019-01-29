@@ -1,9 +1,11 @@
+**Download the apk [here](https://drive.google.com/open?id=1g53kQLN3FZzBGhQV372ibj1fn0hm_kvL)**
+
+
 # stellar-rush
 - My first video game! Made using unity and blender for android phones
 - Endless runner style game featuring different enemies, powerups, achievements, upgrades and customizable backgrounds and main character models.
 - Music by: Matt McFarland (www.mattmcfarland.com)
 - Everything other than the music was done from scratch by me - this includes art, 3d models, programming etc
-- Download the apk here: https://drive.google.com/open?id=1g53kQLN3FZzBGhQV372ibj1fn0hm_kvL
 
 ## How to play:
 
